@@ -11,6 +11,7 @@
 		3EA29BDD180C3D1C0015340A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA29BDC180C3D1C0015340A /* main.m */; };
 		3EA29BE1180C3D1C0015340A /* EmployeeProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EA29BE0180C3D1C0015340A /* EmployeeProject.1 */; };
 		3EA29BE9180C3D9C0015340A /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA29BE8180C3D9C0015340A /* Employee.m */; };
+		3EA29BEF180C419E0015340A /* Salesman.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA29BEE180C419E0015340A /* Salesman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		3EA29BE0180C3D1C0015340A /* EmployeeProject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EmployeeProject.1; sourceTree = "<group>"; };
 		3EA29BE7180C3D9C0015340A /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		3EA29BE8180C3D9C0015340A /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		3EA29BED180C419E0015340A /* Salesman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salesman.h; sourceTree = "<group>"; };
+		3EA29BEE180C419E0015340A /* Salesman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salesman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				3EA29BDE180C3D1C0015340A /* Supporting Files */,
 				3EA29BE7180C3D9C0015340A /* Employee.h */,
 				3EA29BE8180C3D9C0015340A /* Employee.m */,
+				3EA29BED180C419E0015340A /* Salesman.h */,
+				3EA29BEE180C419E0015340A /* Salesman.m */,
 			);
 			path = EmployeeProject;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA29BEF180C419E0015340A /* Salesman.m in Sources */,
 				3EA29BDD180C3D1C0015340A /* main.m in Sources */,
 				3EA29BE9180C3D9C0015340A /* Employee.m in Sources */,
 			);
