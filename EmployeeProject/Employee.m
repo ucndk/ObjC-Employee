@@ -18,4 +18,8 @@
     return self;
 }
 
+- (void)giveBonus:(double)amount {
+    self.salary += amount;
+}
+
 @end

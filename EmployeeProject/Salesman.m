@@ -18,4 +18,9 @@
     return self;
 }
 
+- (void)giveBonus:(double)amount {
+    [super giveBonus:amount];
+    self.salary += self.sales/100.0;
+}
+
 @end

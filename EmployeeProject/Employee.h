@@ -16,4 +16,6 @@
 
 - (id)initWithName:(NSString *)name position:(NSString *)position salary:(double)salary;
 
+- (void)giveBonus:(double)amount;
+
 @end
